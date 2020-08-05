@@ -14,11 +14,11 @@ st.header('                 Diabetes Detection')
 # """)
 
 #open and display image
-image = Image.open('C:/Users/sufyan/PycharmProjects/webapp/bgimage.png')
+image = Image.open('bgimage.png')
 st.image(image, caption='ML', use_column_width=True)
 
 #Get the data
-df = pd.read_csv('C:/Users/sufyan/PycharmProjects/webapp/diabetes.csv')
+df = pd.read_csv('diabetes.csv')
 
 #set the subheader on the webapp
 # st.subheader('Data Information')
